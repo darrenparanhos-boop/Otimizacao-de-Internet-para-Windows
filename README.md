@@ -46,30 +46,49 @@ O script completo está disponível no arquivo: **otimizacao_internet.txt**
 [otimizacao_internet.txt](https://github.com/user-attachments/files/24943557/otimizacao_internet.txt)
 
 Write-Host "==============================================" -ForegroundColor Cyan
+
 Write-Host " OTIMIZACAO AVANCADA DE INTERNET - WINDOWS"
+
 Write-Host "==============================================" -ForegroundColor Cyan
 
 # -----------------------------------------------
+
 # 1. Limpeza e reset basico
+
 # -----------------------------------------------
+
 Write-Host "`n[LIMPEZA DE REDE]" -ForegroundColor Yellow
+
 ipconfig /flushdns
+
 ipconfig /release
+
 ipconfig /renew
+
 arp -d *
 
 netsh winsock reset
+
 netsh int ip reset
 
 # -----------------------------------------------
+
 # 2. Ajustes TCP Avancados
+
 # -----------------------------------------------
+
 Write-Host "`n[AJUSTES TCP]" -ForegroundColor Yellow
 
 netsh int tcp set global autotuninglevel=normal
+
 netsh int tcp set global rss=enabled
+
 netsh int tcp set global rsc=enabled
+
 netsh int tcp set global chimney=enabled
+
 netsh int tcp set global ecncapability=disabled
+
 netsh int tcp set global timestamps=disabled
+
 netsh int tcp set global congestionprovider=ctcp
