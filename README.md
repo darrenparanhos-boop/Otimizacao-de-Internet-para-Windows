@@ -3,6 +3,7 @@ O arquivo contém um script de otimização avançada de internet para sistemas 
 
 🛠 Otimização Avançada de Internet para Windows
 Este script em PowerShell foi desenvolvido para realizar uma otimização avançada da conexão de internet em sistemas operacionais Windows. Ele executa uma série de comandos que ajudam a limpar configurações de rede antigas, renovar IPs e aplicar ajustes avançados no protocolo TCP, melhorando a performance e estabilidade da conexão.
+
 📋 Funcionalidades
 O script está dividido em duas seções principais:
 1. Limpeza e Reset Básico
@@ -21,13 +22,16 @@ Aplica configurações que podem melhorar o desempenho da rede:
 - ecncapability=disabled: Desativa o ECN (Explicit Congestion Notification).
 - timestamps=disabled: Desativa timestamps TCP.
 - congestionprovider=ctcp: Define o provedor de congestionamento como CTCP (Compound TCP).
+
 ⚠️ Requisitos
 - Sistema operacional: Windows 10 ou superior.
 - Permissões de administrador para executar os comandos netsh.
+
 🚀 Como usar
 - Abra o PowerShell como administrador.
 - Copie e cole o conteúdo do arquivo .txt gerado.
 - Pressione Enter para executar o script.
+
 📌 Observações
 - Este script não substitui uma análise técnica de rede, mas pode ajudar a resolver problemas comuns de lentidão ou instabilidade.
 - Recomenda-se reiniciar o computador após a execução para aplicar todas as mudanças.
@@ -38,7 +42,6 @@ Aplica configurações que podem melhorar o desempenho da rede:
 ## 📄 Arquivo .txt
 O script completo está disponível no arquivo: **otimizacao_internet.txt**  
 *(Clique no cartão acima para baixar o arquivo gerado)*
-
 
 [otimizacao_internet.txt](https://github.com/user-attachments/files/24943557/otimizacao_internet.txt)
 Write-Host "==============================================" -ForegroundColor Cyan
