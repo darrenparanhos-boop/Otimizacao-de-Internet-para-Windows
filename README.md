@@ -41,7 +41,7 @@ Aplica configurações que podem melhorar o desempenho da rede:
 
 ## 📄 Arquivo .txt
 O script completo está disponível no arquivo: **otimizacao_internet.txt**  
-*(Clique no cartão acima para baixar o arquivo gerado)*
+*(Clique no arquivo abaixo [otimizacao_internet.txt] para o download do arquivo txt)*
 
 [otimizacao_internet.txt](https://github.com/user-attachments/files/24943557/otimizacao_internet.txt)
 
