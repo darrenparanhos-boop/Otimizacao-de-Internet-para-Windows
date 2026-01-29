@@ -44,6 +44,7 @@ O script completo está disponível no arquivo: **otimizacao_internet.txt**
 *(Clique no cartão acima para baixar o arquivo gerado)*
 
 [otimizacao_internet.txt](https://github.com/user-attachments/files/24943557/otimizacao_internet.txt)
+
 Write-Host "==============================================" -ForegroundColor Cyan
 Write-Host " OTIMIZACAO AVANCADA DE INTERNET - WINDOWS"
 Write-Host "==============================================" -ForegroundColor Cyan
